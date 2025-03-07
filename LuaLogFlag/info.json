@@ -1,0 +1,9 @@
+{
+    "name": "LuaLogFlagMod",
+    "version": "0.1",
+    "title": "Lua Log Flag Toggle",
+    "author": "evospace",
+    "evospace_version": "0.20.0",
+    "dependencies": [],
+    "description": "Makes logs more verbose"
+}
