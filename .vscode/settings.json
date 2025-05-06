@@ -1,0 +1,9 @@
+{
+    "Lua.workspace.library": [
+        "~/Evospace 5.4/Source/Evospace/Shared/api/"
+    ],
+    "Lua.diagnostics.disable": [
+        "inject-field"
+    ],
+    "Lua.runtime.version": "LuaJIT"
+}
