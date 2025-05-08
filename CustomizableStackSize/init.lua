@@ -21,6 +21,7 @@ function CustomizableStackSize.pre_init()
         end,
         label = "StaskSize",
         name = "StaskSize",
+        restart = true,
      })
 end
 
