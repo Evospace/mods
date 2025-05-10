@@ -1,0 +1,9 @@
+{
+    "name": "OnlyOne",
+    "version": "0.1",
+    "title": "Only One",
+    "author": "evospace",
+    "evospace_version": "0.20.0",
+    "dependencies": [],
+    "description": "Make all stack size equal 1"
+}
