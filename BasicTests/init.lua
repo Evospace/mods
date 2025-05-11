@@ -32,6 +32,8 @@ function BasicTestsMod.pre_init()
     require('tests/static_prop')(lib)
     require('tests/settings')(lib)
     require('tests/recipe')(lib)
+    require('tests/props')(lib)
+    require('tests/block')(lib)
 
     print("Passed: "..lib.passedCounter)
     if lib.failedCounter > 0 then
