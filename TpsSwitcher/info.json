@@ -1,0 +1,11 @@
+{
+    "name": "TpsSwitcher",
+    "version": "0.1.0",
+    "title": "TPS Switcher",
+    "author": "evospace",
+    "evospace_version": "0.20.1",
+    "dependencies": [
+        "Core"
+    ],
+    "description": "Mod UI to set target TPS (20/100/400)"
+}
