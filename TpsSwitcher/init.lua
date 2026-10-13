@@ -22,7 +22,7 @@ function tps_mod.post_init()
             on_click = function()
                game.tick_rate = tps
             end,
-            ui.Text(tostring(tps)),
+            ui.Text { text = tostring(tps), align = "center" },
          }
       end
 
