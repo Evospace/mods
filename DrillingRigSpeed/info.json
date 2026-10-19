@@ -1,0 +1,9 @@
+{
+    "name": "DrillingRigSpeed",
+    "version": "1.0",
+    "title": "Drilling Rig Speed",
+    "author": "evospace",
+    "evospace_version": "0.20.1",
+    "dependencies": ["Vanilla>=0.20.1", "VanillaLib>=0.20.1"],
+    "description": "Halves the extraction time of a drilling rig with every level, the way the other crafters scale with level."
+}

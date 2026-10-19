@@ -6,21 +6,19 @@ function CustomizableStackSize.init()
 end
 
 function CustomizableStackSize.pre_init()
-    db:from_table({
-        class = "Setting",
+    Setting.reg("StaskSize", {
         category = "StackSize",
         type = "Slider",
-        max_value = 100,
-        min_value = 1,
-        int_default_value = 20,
+        max = 100,
+        min = 1,
+        default = 20,
         ---@param setting Setting
         set_action = function(setting)
-           local value = setting.int_value
+           local value = setting.value
            CustomizableStackSize.stack_size = value
            print("set stack size multiplier "..value)
         end,
         label = "StaskSize",
-        name = "StaskSize",
         restart = true,
      })
 end

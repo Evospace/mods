@@ -1,0 +1,9 @@
+{
+    "name": "BadWeather",
+    "version": "1.0",
+    "title": "Bad Weather",
+    "author": "evospace",
+    "evospace_version": "0.22.0",
+    "dependencies": ["Vanilla>=0.22.0"],
+    "description": "The weather runs from partly cloudy to storm: no clear sky, rain about half the time and storms twice as often."
+}

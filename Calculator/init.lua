@@ -157,18 +157,16 @@ set_open = function(open)
 end
 
 function calculator_mod.pre_init()
-   db:from_table {
-      class = "Setting",
+   Setting.reg("CalculatorToggle", {
       category = "Controls",
       type = "Key",
-      name = "CalculatorToggle",
       label = "CalculatorToggle",
       key_binding = "CalculatorToggle",
       default_key = "Ctrl+K",
       key_action = function()
          set_open(not is_open())
       end,
-   }
+   })
 end
 
 function calculator_mod.init()

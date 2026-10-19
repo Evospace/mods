@@ -1,0 +1,9 @@
+{
+    "name": "DayAndNightSolar",
+    "version": "1.0",
+    "title": "Day & Night Solar",
+    "author": "evospace",
+    "evospace_version": "0.22.0",
+    "dependencies": ["Vanilla>=0.22.0"],
+    "description": "Solar panels produce as if the sun stood at its zenith, day and night. The sky and the weather stay as they are, and clouds still cut the output."
+}

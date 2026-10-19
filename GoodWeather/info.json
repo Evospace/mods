@@ -1,0 +1,9 @@
+{
+    "name": "GoodWeather",
+    "version": "1.0",
+    "title": "Good Weather",
+    "author": "evospace",
+    "evospace_version": "0.22.0",
+    "dependencies": ["Vanilla>=0.22.0"],
+    "description": "The weather stays between a clear sky and partly cloudy: no overcast, no rain, no storms."
+}
