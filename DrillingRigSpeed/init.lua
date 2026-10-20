@@ -1,4 +1,4 @@
-local Vlib = require('vlib')
+local Vlib = require('@VanillaLib/vlib')
 
 local DrillingRigSpeed = {}
 

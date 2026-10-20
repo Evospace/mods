@@ -1,7 +1,7 @@
 --- A pocket calculator, and the shortest tour of what a mod can put on the HUD:
 --- a toggle in the control bar, a hotkey the player can rebind, and a window built from ui.*.
 
-local Expr = require('expr')
+local Expr = require('@self/expr')
 
 local WindowWidth = 300
 local WindowHeight = 430
