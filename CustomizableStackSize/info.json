@@ -1,9 +1,13 @@
 {
     "name": "CustomizableStackSize",
-    "version": "0.1",
+    "version": "0.2",
     "title": "Customizable Stack Size",
     "author": "evospace",
     "evospace_version": "0.20.0",
     "dependencies": [],
-    "description": "Multiplies the stack sizes by customizable value"
+    "description": "Multiplies the stack sizes by customizable value",
+    "versions": [
+        { "path": "0.22.2", "match": ">=0.22.2" },
+        { "path": "0.22.1", "match": "<=0.22.1" }
+    ]
 }
